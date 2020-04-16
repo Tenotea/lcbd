@@ -228,7 +228,7 @@ footer{
   }
   .header{
     .site-name{
-      width: 20%;
+      width: 30%;
       img{
         width: 100%;
         height: 100%;
@@ -254,7 +254,7 @@ footer{
         margin-left: auto;
         box-shadow: -1px 0px 3px 0px #bebebe;
         padding-top: 23px;
-        display: block;
+        display: none;
        li{
          padding: 10px 0px 10px 20px;
          margin: 10px 0px;
@@ -266,6 +266,7 @@ footer{
     }
 
     .active-navigation{
+      display: block;
       transform: translateX(0%);
       transition: .5s transform cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
