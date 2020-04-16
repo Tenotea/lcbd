@@ -62,7 +62,7 @@
     width: fit-content;
     transition: 1s transform ease-in-out ;
     img{
-      width: 100vmax;
+      width: 100%;
       height: 100%;
     }
   }
@@ -239,13 +239,12 @@ footer{
     .navigation{
       position: absolute;
       background-color: rgba(63, 63, 63, 0.274);
-      display: block;
       z-index: 5;
       width: 100%;
       height: 100vh;
       top: 0%;
       left: 0%;
-      transform: translateX(100% );
+      transform: translateX(100%);
       transition: .5s transform cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
       ul{

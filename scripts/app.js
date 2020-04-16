@@ -16,16 +16,16 @@ hamburgerIcon.addEventListener('click', ()=>{
 // Carousel
 const bannerContainer = document.querySelector('.banner-container');
 
-bannerContainer.style.transform = 'translateX(-100vmax)';
+bannerContainer.style.transform = 'translateX(-100%)';
 
 window.addEventListener('load', ()=>{
   let translateValue = -200;
     const animator = setInterval(()=>{
-    bannerContainer.style.transform = 'translateX(' + translateValue + 'vmax)';
+    bannerContainer.style.transform = 'translateX(' + translateValue + '%)';
     translateValue -= 100;
     if(translateValue === -700){
       translateValue = -100;
-      bannerContainer.style.transform = 'translateX(0vmax)';
+      bannerContainer.style.transform = 'translateX(0%)';
       bannerContainer.style.transition = 'none';
     } else{
       bannerContainer.style.transition = '1s transform ease-in-out';
