@@ -238,6 +238,7 @@ footer{
 
     .navigation{
       position: absolute;
+      display: none;
       background-color: rgba(63, 63, 63, 0.274);
       z-index: 5;
       width: 100%;
@@ -254,7 +255,7 @@ footer{
         margin-left: auto;
         box-shadow: -1px 0px 3px 0px #bebebe;
         padding-top: 23px;
-        display: none;
+        display: block;
        li{
          padding: 10px 0px 10px 20px;
          margin: 10px 0px;
